@@ -1,0 +1,189 @@
+#set page(
+  paper: "a4",
+  margin: (x: 15mm, y: 18mm),
+)
+
+#set text(
+  font: "Segoe UI", // Usando Liberation Sans como alternativa comum
+  size: 10.5pt,
+  lang: "pt",
+)
+
+// Configuração de parágrafo para justificado
+#set par(justify: true, leading: 0.6em)
+
+
+// ------ Helper Functions ------
+
+#let section_title(title) = {
+  v(12pt, weak: true)
+  block(width: 100%, stroke: (bottom: 1.2pt + black), inset: (bottom: 2pt))[
+    #text(size: 12.5pt, weight: "bold")[#title]
+  ]
+  v(8pt, weak: true)
+}
+
+#let summary_item(content) = {
+  grid(
+    columns: (25pt, 1fr),
+    gutter: 0pt,
+    text(size: 12pt)[➢],
+    content
+  )
+  v(4pt)
+}
+
+#let company_header(name, period) = {
+  v(10pt, weak: true)
+  grid(
+    columns: (1fr, auto),
+    text(size: 11.5pt, weight: "bold")[#upper(name)],
+    text(size: 11pt, weight: "bold")[#period]
+  )
+}
+
+#let job_position(title) = {
+  v(4pt)
+  h(12pt)
+  text(size: 10pt, weight: "bold")[
+    #text(size: 11pt, weight: "regular")[○] #h(4pt) #upper(title)
+  ]
+  v(2pt)
+}
+
+#let bullet_item(content) = {
+  grid(
+    columns: (25pt, 1fr),
+    gutter: 0pt,
+    h(12pt) + text(size: 10pt)[▪],
+    content
+  )
+  v(2pt)
+}
+
+#let edu_item(sym, content) = {
+  grid(
+    columns: (25pt, 1fr),
+    gutter: 0pt,
+    text(size: 12pt)[#sym],
+    content
+  )
+  v(4pt)
+}
+
+
+// ------ Profile ------
+
+#let profile = (
+  name: "Pedro Augusto Rocha Reis",
+  email: "reis.r.pedroaugusto@gmail.com",
+  linkedin_link: "https://www.linkedin.com/in/pedro-augusto-rocha-reis-571959203",
+  linkedin_name: "linkedin.com/in/pedro-augusto-rocha-reis",
+  location: "São Paulo – SP, Brasil",
+  experience_type: "bigtech",
+  language: "en",
+  style: "senior",
+)
+
+
+// ------ Header ------
+
+#align(center)[
+  #text(size: 24pt, weight: "regular")[#profile.name]
+
+  #v(-8pt)
+  #line(length: 100%, stroke: 1.2pt + black)
+  #v(-4pt)
+
+  #text(size: 8.5pt)[
+    #profile.location
+    #h(4pt) • #h(4pt)
+    (11) 97106-4000
+    #h(4pt) • #h(4pt)
+    #profile.email
+    #h(4pt) • #h(4pt)
+    #link(profile.linkedin_link)[#profile.linkedin_name]
+  ]
+]
+
+// --- Headline ---
+
+#v(12pt)
+#align(center)[
+  #text(size: 12pt, weight: "bold")[GESTÃO DE PRODUTOS E DADOS NO MERCADO DE TECNOLOGIA]
+  
+  #v(2pt)
+  #text(size: 11pt, style: "italic", fill: rgb("#333333"))[
+    Profissional com experiência em gestão de produtos, dados e automação, atuando em empresas de tecnologia e inovação com foco em eficiência operacional, escalabilidade e geração de valor.
+  ]
+]
+
+// --- Resumo Profissional ---
+
+#section_title("Resumo profissional")
+
+#summary_item[Trajetória em gestão de produtos e dados, com atuação em empresas de tecnologia e inovação, liderando equipes multidisciplinares e entregando soluções de alto impacto operacional e financeiro.]
+
+#summary_item[Experiência no desenvolvimento e gestão de plataformas digitais, APIs e sistemas de automação, unindo visão de negócio e profundidade técnica em Python, BigQuery e ferramentas de dados.]
+
+#summary_item[Atuação em ambientes de alta complexidade e escala, com gestão de riscos financeiros superiores a R\$ 8 milhões mensais e geração de receita incremental de até R\$ 2 milhões em campanhas únicas.]
+
+#summary_item[Vivência em ciência de dados e analytics, com desenvolvimento de modelos preditivos, análises de churn, correlação de produtos e geração de leads qualificados para equipes comerciais.]
+
+#summary_item[Perfil analítico, orientado a dados e à entrega de resultados, com habilidade para transitar entre áreas técnicas e de negócio em ambientes dinâmicos e de rápido crescimento.]
+
+// --- Experiência Profissional ---
+
+#section_title("Experiência profissional")
+
+// MOTTU
+#company_header("Mottu", "(MAR/2025 – Atual)")
+
+#import "../Experiences/product_manager_bullets.typ" as exp
+#job_position(exp.position)
+
+#let experiences = (
+  bigtech: exp.bigtech,
+  scaleup: exp.scaleup,
+  startup: exp.startup,
+)
+#let experience = experiences.at(profile.experience_type)
+#for bullet in experience {
+  bullet_item[#bullet]
+}
+
+#job_position("Trainee (MAR/2025 – MAI/2026)")
+#bullet_item[Desenvolvimento end-to-end de sistema de expedição de motos da fábrica em Manaus, integrando a logística de distribuição para filiais em todo o Brasil.]
+#bullet_item[Criação de APIs e fluxos de captura de notas fiscais e dados operacionais, além de validação e tratamento de dados, planejamento logístico e integração com outros sistemas.]
+
+#pagebreak()
+
+// GRUPO FLEURY
+#company_header("Grupo Fleury", "(FEV/2024 – DEZ/2024)")
+#job_position("Estagiário em Ciência de Dados – Pricing")
+#bullet_item[Implementação de análises de dados e ciência de dados para suporte estratégico à equipe comercial, com foco na identificação de oportunidades e geração de leads qualificados.]
+#bullet_item[Desenvolvimento de análises de correlação de produtos, mix e churn, gerando até R\$ 2 milhões em receita adicional em uma única campanha.]
+
+// PROMAD JR
+#company_header("Promad Jr. – Consultoria e Projetos", "(JUN/2022 – DEZ/2023)")
+#job_position("Diretor de Projetos (JAN/2023 – DEZ/2023)")
+#bullet_item[Planejamento e coordenação de estratégias para a Empresa Júnior, impulsionando o ticket médio dos projetos e garantindo o cumprimento de metas.]
+
+#job_position("Membro de Projetos (JUN/2022 – DEZ/2022)")
+#bullet_item[Atuação na Área de Projetos, contribuindo para o desenvolvimento e execução de projetos de consultoria.]
+
+// PETROBRAS
+#company_header("Petrobras / FDTE", "(JAN/2020 – JUN/2022)")
+#job_position("Pesquisador Bolsista")
+#bullet_item[Desenvolvimento de softwares para otimização de processos de inspeção de equipamentos submarinos (Projeto RBI – Petrobras/LabRisco-EP USP/FDTE).]
+#bullet_item[Utilização de Java para coleta de dados e Python com redes neurais para otimização de planos de manutenção.]
+
+// --- Formação ---
+
+#section_title("Formação acadêmica e complementar")
+
+#edu_item("✓")[Bacharelado em Engenharia de Produção – UNESP – Universidade Estadual Paulista (2019 – 2024)]
+
+#edu_item("•")[Membro Pesquisador do Grupo de Simulação e Modelagem Computacional (CNPq/UNESP) (2021 – 2022)]
+
+#edu_item("•")[Inglês: Nativo]
