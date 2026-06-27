@@ -73,18 +73,8 @@
 
 
 // ------ Profile ------
-
-#let profile = (
-  name: "Pedro Augusto Rocha Reis",
-  email: "reis.r.pedroaugusto@gmail.com",
-  linkedin_link: "https://www.linkedin.com/in/pedro-augusto-rocha-reis-571959203",
-  linkedin_name: "linkedin.com/in/pedro-augusto-rocha-reis",
-  location: "São Paulo – SP, Brasil",
-  experience_type: "bigtech",
-  language: "en",
-  style: "senior",
-)
-
+#import "../Profiles/profile.typ": profile
+#let t(x) = x.at(profile.language)
 
 // ------ Header ------
 
@@ -132,22 +122,26 @@
 
 #summary_item[Perfil analítico, orientado a dados e à entrega de resultados, com habilidade para transitar entre áreas técnicas e de negócio em ambientes dinâmicos e de rápido crescimento.]
 
+
+
 // --- Experiência Profissional ---
 
+#import "../Profiles/companies.typ": companies
 #section_title("Experiência profissional")
-
 // MOTTU
-#company_header("Mottu", "(MAR/2025 – Atual)")
+#let mottu = t(companies.mottu)
+#company_header(mottu.name, mottu.period)
 
-#import "../Experiences/product_manager_bullets.typ" as exp
-#job_position(exp.position)
+#import "../Bullets/product_manager_bullets.typ" as exp
+#job_position(t(exp.position))
 
 #let experiences = (
   bigtech: exp.bigtech,
   scaleup: exp.scaleup,
   startup: exp.startup,
+  other: exp.other,
 )
-#let experience = experiences.at(profile.experience_type)
+#let experience = t(experiences.at(profile.experience_type))
 #for bullet in experience {
   bullet_item[#bullet]
 }
