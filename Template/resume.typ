@@ -128,43 +128,64 @@
 
 #import "../Profiles/companies.typ": companies
 #section_title("Experiência profissional")
+
+
 // MOTTU
-#let mottu = t(companies.mottu)
-#company_header(mottu.name, mottu.period)
+#let company1 = t(companies.mottu)
+#company_header(company1.name, company1.period)
 
 #import "../Bullets/product_manager_bullets.typ" as exp
-#job_position(t(exp.position))
-
 #let experiences = (
   bigtech: exp.bigtech,
   scaleup: exp.scaleup,
   startup: exp.startup,
   other: exp.other,
 )
+
+#job_position(t(exp.position))
 #let experience = t(experiences.at(profile.experience_type))
 #for bullet in experience {
   bullet_item[#bullet]
 }
 
-#job_position("Trainee (MAR/2025 – MAI/2026)")
-#bullet_item[Desenvolvimento end-to-end de sistema de expedição de motos da fábrica em Manaus, integrando a logística de distribuição para filiais em todo o Brasil.]
-#bullet_item[Criação de APIs e fluxos de captura de notas fiscais e dados operacionais, além de validação e tratamento de dados, planejamento logístico e integração com outros sistemas.]
+
+
+#import "../Bullets/trainee_bullets.typ" as exp2
+#let experiences2 = (
+  bigtech: exp2.bigtech,
+  scaleup: exp2.scaleup,
+  startup: exp2.startup,
+  other: exp2.other,
+)
+
+#job_position(t(exp2.position))
+#let experience = t(experiences2.at(profile.experience_type))
+#for bullet in experience {
+  bullet_item[#bullet]
+}
+
+
 
 #pagebreak()
 
 // GRUPO FLEURY
-#company_header("Grupo Fleury", "(FEV/2024 – DEZ/2024)")
-#job_position("Estagiário em Ciência de Dados – Pricing")
-#bullet_item[Implementação de análises de dados e ciência de dados para suporte estratégico à equipe comercial, com foco na identificação de oportunidades e geração de leads qualificados.]
-#bullet_item[Desenvolvimento de análises de correlação de produtos, mix e churn, gerando até R\$ 2 milhões em receita adicional em uma única campanha.]
+#let company2 = t(companies.fleury)
+#company_header(company2.name, company2.period)
 
-// PROMAD JR
-#company_header("Promad Jr. – Consultoria e Projetos", "(JUN/2022 – DEZ/2023)")
-#job_position("Diretor de Projetos (JAN/2023 – DEZ/2023)")
-#bullet_item[Planejamento e coordenação de estratégias para a Empresa Júnior, impulsionando o ticket médio dos projetos e garantindo o cumprimento de metas.]
 
-#job_position("Membro de Projetos (JUN/2022 – DEZ/2022)")
-#bullet_item[Atuação na Área de Projetos, contribuindo para o desenvolvimento e execução de projetos de consultoria.]
+#import "../Bullets/estagiario_data_science.typ" as exp3
+#let experiences3 = (
+  bigtech: exp3.bigtech,
+  scaleup: exp3.scaleup,
+  startup: exp3.startup,
+  other: exp3.other,
+)
+
+#job_position(t(exp3.position))
+#let experience = t(experiences3.at(profile.experience_type))
+#for bullet in experience {
+  bullet_item[#bullet]
+}
 
 // PETROBRAS
 #company_header("Petrobras / FDTE", "(JAN/2020 – JUN/2022)")
