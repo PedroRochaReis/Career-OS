@@ -213,10 +213,10 @@
 
 // --- Formação ---
 
+#import "../Formação/formacao.typ": formation
+
 #section_title[#t(section_headlines.education)]
 
-#edu_item("✓")[Bacharelado em Engenharia de Produção – UNESP – Universidade Estadual Paulista (2019 – 2024)]
-
-#edu_item("•")[Membro Pesquisador do Grupo de Simulação e Modelagem Computacional (CNPq/UNESP) (2021 – 2022)]
-
-#edu_item("•")[Inglês: Nativo]
+#for item in formation {
+  #edu_item(item.sym)[#item.text]
+}
