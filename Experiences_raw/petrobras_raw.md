@@ -13,17 +13,24 @@
 ## Sobre a empresa
 
 - Qual era a empresa?
+Petrobrás
 - Em qual setor ela atuava?
+Pesquisa
 - Qual era o tamanho da empresa?
+gigante é a petrobrás
 - Startup, Scale-up, Big Tech, Consultoria ou empresa tradicional?
-- Como a empresa ganhava dinheiro?
+empresa tradicional
 
 ## Seu time
 
 - Qual era sua área?
+Pesquisa de inovação
 - Para quem você respondia?
+Time de Pesquisa da universidade UNESP e USP Lab-risco
 - Existiam outros times envolvidos?
+Diversos times de universidades e de engenheiros da petrobrás
 - Aproximadamente quantas pessoas havia no time?
+no meu time tinham 4 pessoas
 
 ---
 
@@ -31,376 +38,64 @@
 
 ## Informações básicas
 
-Cargo:
-
-Período:
-
-Modelo de trabalho:
-
-Nível (Júnior, Pleno, Sênior, Especialista, Líder...):
+Cargo:Pesquisador Bolsista
+Período:01/2020 - 06/2022
+Modelo de trabalho:remoto
 
 ## Seu papel
 
 Explique, com suas palavras, qual era sua principal responsabilidade.
-
+Eu dava suporte no desenvolvimento e analise de dados do projeto de pesquisa junto ao meu professor orientador
 Se alguém perguntasse "o que você fazia?", como responderia?
+Desenvolvimento direto com desenvolvimento de um software em python com interface para uso e carregamento de arquivos e sistema de analise de rede neurais de plano de inspeção para plataformas off shore
+Auxilio no desenvolvimento de software em java para coleta e cadastro de equipamentos off-shore e seu modos de falha
 
 ---
 
 # 3. O produto, serviço ou processo
 
 O que exatamente você ajudava a construir ou operar?
-
-Responda o que fizer sentido.
-
-- Produto digital
-- Plataforma
-- Processo interno
-- Operação
-- Sistema
-- Serviço
-- Ferramenta
-- Infraestrutura
-- Modelo analítico
-- Outro
+Auxiliei tanto no desenvolvimento de 2 softwares, um em java para coleta e cadstro de equipamento submarinos off-shore para analise de modos de falha no modelo FMEA quanto no desenvolvimento de uma ferramente de analise a partir de redes neurais para criação de um modelo de plano de inspeção com finalidade de buscar o melhor plano de inspeção com menor e risco e menor custo agregado
 
 ### Quem utilizava?
 
-- Clientes
-- Empresas
-- Times internos
-- Parceiros
-- Operação
-- Engenharia
-- Financeiro
-- Comercial
-- etc.
+Engenheiros da Petrobrás
 
 ### Qual problema era resolvido?
 
-Explique o problema de negócio.
+O problema era encontrar, utilizando algoritmos e ferramentos, o melhor plano de inspeção de manutenção visando reduzir custo e e risco associado, além de plataformas de software embedados para cadastro de equipamentos e modos de falha
 
 ---
 
 # 4. Seu escopo
 
 Descreva o ambiente onde você trabalhava.
+ambiente mais academico, fazendo um software em formato de pesquisa para o pessoal da petrobras usar
 
-Exemplos:
-
-- Engenharia
-- Produto
-- Design
-- Dados
-- Analytics
-- Operações
-- Comercial
-- Customer Success
-- Jurídico
-- Compliance
-- Financeiro
-- IA
-- Plataforma
-- Infraestrutura
-
-Caso existisse um time multidisciplinar, descreva aproximadamente sua composição.
 
 ---
 
 # 5. Suas responsabilidades
 
-Marque tudo que fazia.
-
-## Estratégia
-
-- Planejamento
-- Roadmap
-- Priorização
-- Definição de metas
-- Planejamento financeiro
-- Pesquisa
-- Discovery
-- Estratégia de produto
+Auxilio junto ao meu coordenardor na confecção e teste das ferramentas
 
 ## Execução
 
-- Desenvolvimento
-- Programação
-- Modelagem
-- Análise de dados
-- Escrita de documentação
-- Refinamento técnico
-- Gestão operacional
-- Automações
-- Dashboards
-- Processos
-- Migrações
-- Integrações
-
-## Gestão
-
-- Liderança técnica
-- Liderança de pessoas
-- Gestão de projetos
-- Stakeholders
-- Comunicação
-- Apresentações
-- Contratação
-- Mentoria
+- Desenvolvimento -check
+- Programação -check
+- Modelagem -check
+- Análise de dados -check
+- Escrita de documentação -check
 
 ## Qualidade
 
-- Testes
-- Monitoramento
-- KPIs
-- SLAs
-- Compliance
-- Auditoria
-- Segurança
-- Observabilidade
-
-## Outros
-
-Adicione qualquer responsabilidade que não apareceu acima.
+- Testes - check
 
 ---
 
 # 6. Tecnologias, ferramentas e metodologias
 
-Liste tudo que utilizava.
-
-Exemplo:
-
-Linguagens:
-
-Ferramentas:
-
-Cloud:
-
-Banco de dados:
-
-BI:
-
-IA:
-
-Metodologias:
-
-Frameworks:
-
-Outros:
-
----
-
-# 7. Principais iniciativas
-
-Liste absolutamente tudo que você entregou.
-
-Não filtre.
-
-Exemplos:
-
-- Projeto
-- Feature
-- Plataforma
-- Dashboard
-- API
-- Automação
-- Processo
-- Migração
-- Modelo estatístico
-- Pipeline
-- Arquitetura
-- Integração
-- MVP
-- Produto
-- Sistema
-- Ferramenta interna
-
-Para cada iniciativa, responda:
-
-## Nome
-
-## Qual era o problema?
-
-## O que foi feito?
-
-## Qual foi sua participação?
-
-## Quem participou?
-
-## Quais tecnologias foram utilizadas?
-
----
-
-# 8. Resultados
-
-O que mudou depois das entregas?
-
-Mesmo sem números exatos.
-
-Exemplos:
-
-- aumento de receita
-- redução de custos
-- aumento de produtividade
-- redução de tempo
-- redução de erros
-- redução de fraude
-- redução de risco
-- aumento de conversão
-- aumento de retenção
-- melhoria da experiência
-- melhoria de SLA
-- aumento de disponibilidade
-- eliminação de atividades manuais
-- melhoria operacional
-
-Se possuir números, registre.
-
----
-
-# 9. Decisões importantes
-
-Quais decisões relevantes você tomou?
-
-Exemplos:
-
-- escolha tecnológica
-- mudança de arquitetura
-- mudança de processo
-- priorização
-- trade-offs
-- definição de estratégia
-- corte de escopo
-- lançamento de MVP
-
-Explique por que decidiu dessa forma.
-
----
-
-# 10. Problemas difíceis
-
-Conte de um a três projetos difíceis.
-
-Para cada um:
-
-## Contexto
-
-## Problema
-
-## Por que era difícil?
-
-## Quais alternativas existiam?
-
-## Como você pensou?
-
-## Quais decisões tomou?
-
-## Como executou?
-
-## Resultado
-
-## O que aprendeu?
-
----
-
-# 11. Liderança
-
-Caso tenha liderado pessoas ou iniciativas.
-
-- Liderou projetos?
-- Liderou pessoas?
-- Liderou tecnicamente?
-- Influenciou outras áreas?
-- Coordenou fornecedores?
-- Treinou pessoas?
-- Criou processos?
-- Definiu padrões?
-
----
-
-# 12. Stakeholders
-
-Com quem você trabalhava?
-
-Exemplos:
-
-- Diretoria
-- Engenharia
-- Produto
-- Comercial
-- Operações
-- Jurídico
-- Financeiro
-- Clientes
-- Parceiros
-- Executivos
-
-Como era esse relacionamento?
-
----
-
-# 13. Métricas
-
-Quais métricas você acompanhava?
-
-Exemplos:
-
-- Receita
-- Custos
-- Conversão
-- Retenção
-- Churn
-- SLA
-- NPS
-- Disponibilidade
-- Tempo médio
-- Volume
-- CAC
-- LTV
-- Margem
-- Produtividade
-- Erros
-- Fraudes
-
----
-
-# 14. Conquistas
-
-Liste tudo que considera uma conquista.
-
-Mesmo que pareça pequena.
-
-Exemplos:
-
-- Promoção
-- Reconhecimento
-- Projeto estratégico
-- Economia gerada
-- Produto lançado
-- Processo criado
-- Time formado
-- Prêmio
-- Patente
-- Publicação
-
----
-
-# 15. Lições aprendidas
-
-O que essa experiência ensinou?
-
-Pode falar sobre:
-
-- produto
-- tecnologia
-- liderança
-- negócios
-- clientes
-- processos
-- comunicação
-- estratégia
-- negociação
+Linguagens:python, java
 
 ---
 

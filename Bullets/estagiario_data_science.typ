@@ -2,61 +2,60 @@
   pt: ("Estagiario - Ciencia de Dados (JAN/2024 – DEZ/2024)"),
   en: ("Intern - Data Science (JAN/2024 – DEC/2024)")
 )
-
 #let bigtech = (
   pt: (
-    "Conduzi análise de consumo histórico e modelagem preditiva para gerar leads acionáveis entregues ao CRM, resultando em ~R$2.000.000 anualizados de receita incremental; ownership completo da pipeline analítica e validação com times regionais de vendas.",
-    "Desenvolvi metodologia de detecção de pares de exames por correlação e PCA para reduzir dimensionalidade e identificar oportunidades comerciais, traduzindo sinais analíticos em entregáveis operacionais usados por equipes de vendas B2B.",
-    "Implementei modelos interpretáveis (regressão linear) e tratamento robusto de outliers (IQR, Z-score) para estimativas de potencial de venda por cliente, melhorando a confiança das decisões comerciais sem depender de supervisão contínua.",
-    "Colaborei com áreas de dados e comerciais para integrar resultados analíticos ao CRM, garantindo governança de dados e acionabilidade das recomendações em ambiente corporativo de grande porte.",
+    "Desenvolvi uma solução analítica para geração de leads B2B baseada em padrões de consumo histórico de mais de 5.000 exames e 4.000 laboratorios, transformando dados comerciais em oportunidades priorizadas para a equipe de vendas.",
+    "Modelei correlações entre exames e estimativas de potencial de venda utilizando Python, SQL e modelos estatísticos, incorporando recomendações diretamente ao CRM utilizado pelo time comercial.",
+    "A primeira campanha baseada no modelo gerou aproximadamente R$ 2 milhões em receita anualizada, originando uma nova frente de produtos de inteligência posteriormente expandida pelo time de Dados."
   ),
+
   en: (
-    "Led historical consumption analysis and predictive modelling to generate CRM-ready leads, delivering ~R$2,000,000 annualized incremental revenue; owned the end-to-end analytical pipeline and regional sales validation.",
-    "Designed a methodology to detect co-occurring exam pairs using correlation and PCA to reduce dimensionality and surface cross-sell opportunities, converting analytic signals into operational sales leads.",
-    "Built interpretable regression models and robust outlier treatment (IQR, Z-score) to estimate incremental sales potential per client, increasing commercial trust while minimizing model complexity.",
-    "Coordinated with data engineering and commercial teams to integrate analytic outputs into CRM workflows, ensuring data governance and actionability across a large enterprise environment.",
-  ),
+    "Developed an analytical solution for B2B lead generation based on consumption patterns across 5,000+ tests and 4,000+ laboratories, converting commercial data into prioritized opportunities for the sales team.",
+    "Modeled correlations between tests and estimated sales potential using Python, SQL and statistical models, embedding recommendations directly into the CRM used by the commercial team.",
+    "The pilot campaign derived from the model produced approximately R$2,000,000 in annualized revenue and catalyzed a new commercial-intelligence product line later expanded by the Data team.",
+  )
 )
 
 #let scaleup = (
   pt: (
-    "Liderei a criação de um serviço analítico de geração de leads B2B desde a hipótese até entrega, priorizando impacto comercial e gerando R$2M anualizados na campanha piloto; otimizei processos para replicação em outras regionais.",
-    "Transformei insights estatísticos em workflows acionáveis para o time de vendas, melhorando qualidade e conversão de leads através de segmentação baseada em consumo histórico e previsões por cliente.",
-    "Estabeleci rotinas de limpeza e tratamento de dados (SQL, DataBricks) e documentei pipelines para facilitar retomada e escala por outros analistas dentro da área de Pricing.",
-    "Adotei modelos simples e interpretáveis para acelerar adoção comercial, equilibrando rapidez de entrega e estabilidade das previsões em cenário com dados limitados e equipe enxuta.",
+    "Construí do zero uma solução de inteligência comercial para identificar oportunidades de venda utilizando dados históricos de consumo de exames médicos.",
+    "Transformei análises estatísticas em leads acionáveis para o CRM, aproximando ciência de dados das decisões comerciais em parceria com Pricing e Comercial para validar hipóteses.",
+    "A solução foi validada em produção com uma campanha que gerou cerca de R$ 2 milhões em receita anualizada e abriu caminho para novas iniciativas de inteligência comercial."
   ),
+
   en: (
-    "Owned an end-to-end lead-generation analytics service for B2B sales from hypothesis to CRM delivery, producing ~R$2M annualized in a pilot campaign and operationalizing the process for regional rollout.",
-    "Converted statistical findings into actionable sales workflows, improving lead quality and conversion through customer-level consumption segmentation and predictive estimates.",
-    "Implemented repeatable data-cleaning and pipeline processes (SQL, DataBricks) and documented artifacts to enable handoff and scaling within the Pricing analytics team.",
-    "Prioritized simple, interpretable models to speed commercial adoption and balance delivery speed with forecast reliability under resource constraints.",
-  ),
+    "Built from scratch a commercial-intelligence solution to identify sales opportunities using historical medical-test consumption data.",
+    "Converted statistical analyses into CRM-ready leads, aligning data science with commercial decision-making in partnership with Pricing and Sales to validate hypotheses.",
+    "The solution was validated in production via a campaign that generated ~R$2,000,000 annualized revenue and enabled further commercial-intelligence initiatives.",
+  )
 )
 
 #let startup = (
   pt: (
-    "Construi do zero uma análise de leads B2B sob supervisão mínima, explorando dados, engineering de features e modelos leves para entregar resultados acionáveis em pouco tempo e gerar impacto financeiro real.",
-    "Executei experimentos rápidos de segmentação e validação com equipes regionais, iterando hipótese→modelo→campanha para comprovar valor e ajustar prioridade de features de produto analítico.",
-    "Automatizei etapas repetitivas de tratamento e identificação de pares de exames, reduzindo tempo manual de preparação e acelerando ciclos de entrega para o time comercial.",
-    "Usei Python e SQL em DataBricks para prototipar e lançar MVP analítico que foi adotado operacionalmente como fonte de leads para vendas.",
+    "Construí um MVP de inteligência comercial B2B usando Python e SQL para identificar oportunidades de venda por meio de análise de consumo histórico e geração de leads automatizada.",
+    "Entreguei uma solução de dados de ponta a ponta em ambiente incerto, desde extração e limpeza até modelagem e formatação de recomendações para o CRM do time comercial.",
+    "Colaborei com usuários finais em ciclos rápidos de validação e implementei a primeira campanha que gerou cerca de R$ 2 milhões de receita anualizada.",
   ),
+
   en: (
-    "Built an end-to-end B2B lead analysis from scratch with minimal supervision, performing feature engineering and lightweight modelling to quickly deliver actionable results and tangible revenue impact.",
-    "Ran rapid experiments with regional sales teams—hypothesis→model→campaign—iterating fast to validate value and prioritize product features for the analytics solution.",
-    "Automated repetitive steps for outlier treatment and exam-pair identification, reducing manual prep time and accelerating delivery cycles to commercial teams.",
-    "Prototyped and shipped an analytical MVP using Python and SQL on DataBricks that became an operational source of leads for sales.",
-  ),
+    "Built a B2B commercial-intelligence MVP using Python and SQL to identify sales opportunities through historical consumption analysis and automated lead generation.",
+    "Delivered an end-to-end data solution in an ambiguous environment, from extraction and cleaning to modeling and CRM-ready recommendations for the sales team.",
+    "Collaborated with end users in rapid validation cycles and launched the first campaign, generating approximately R$2,000,000 annualized revenue.",
+  )
 )
 
 #let other = (
   pt: (
-    "Estagiário de Data Science que desenvolveu pipeline analítico para geração de leads B2B, aplicando correlação, PCA e regressão linear; contribuiu diretamente para uma campanha com R$2.000.000 anualizados de receita incremental.",
-    "Responsável pela limpeza de dados, engenharia de features e validação estatística das predições, além da preparação de entregáveis e apresentações para times regionais de vendas.",
-    "Trabalhou com Python, SQL (SQL Server) e DataBricks, adotando práticas reprodutíveis e documentação para facilitar manutenção por outros analistas.",
+    "Desenvolvimento de soluções analíticas utilizando Python e SQL para suporte à estratégia comercial do Grupo Fleury.",
+    "Construção de modelos estatísticos para identificação de oportunidades de venda e geração de leads qualificados para o time comercial.",
+    "Apresentação e validação das análises junto às áreas de Pricing e Comercial, apoiando decisões baseadas em dados.",
+    "Participação em projeto responsável por aproximadamente R$ 2 milhões em receita anualizada em sua primeira campanha."
   ),
+
   en: (
-    "Data Science intern who developed an analytical pipeline for B2B lead generation using correlation, PCA and linear regression; directly contributed to a campaign yielding ~R$2,000,000 annualized incremental revenue.",
-    "Owned data cleaning, feature engineering and statistical validation of predictions, and prepared deliverables and presentations for regional sales stakeholders.",
-    "Worked with Python, SQL (SQL Server) and DataBricks, applying reproducible practices and documentation to enable handoff within the analytics team.",
-  ),
+    "Developed analytical solutions using Python and SQL to support Grupo Fleury's commercial strategy.",
+    "Built statistical models to identify sales opportunities and generate qualified leads for the commercial team.",
+    "Presented and validated analyses with Pricing and Sales to support data-driven decisions.",
+    "Contributed to a project that generated approximately R$2,000,000 annualized revenue in its first campaign.",
+  )
 )

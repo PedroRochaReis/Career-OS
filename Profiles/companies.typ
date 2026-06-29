@@ -19,4 +19,14 @@
             period: "(JAN/2024 - DEC/2024)"
         )
     ),
+    petrobras: (
+        pt: (
+            name: "Petrobras / FDTE",
+            period: "(JAN/2020 – JUN/2022)"
+        ),
+        en: (
+            name: "Petrobras / FDTE",
+            period: "(JAN/2020 – JUN/2022)"
+        )
+    )
 )

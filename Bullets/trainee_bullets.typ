@@ -6,14 +6,12 @@
 #let bigtech = (
   pt: (
     "Liderança do produto interno de expedição de motocicletas para 100.000 unidades/ano, criando fluxos de validação entre planejamento, faturamento fiscal e execução real, o que elevou SLA operacional de ~65% para acima de 90%.",
-    "Gerenciamento de arquitetura de sistema para processos regulatórios e logísticos, centralizando regras de negócio e integrações com fábrica, transportadoras e despachantes para reduzir dependência manual e aumentar rastreabilidade.",
-    "Desenvolvimento de APIs e modelo de dados em C#/.NET com PostgreSQL para suportar transporte de motos Manaus→Belém→filiais, entregando uma plataforma escalável para 80 motos por carreta e operações complexas de múltiplos elos.",
+    "Desenvolvimento de APIs e modelo de dados em C#/.NET com PostgreSQL para suportar transporte de motos, entregando uma plataforma escalável e operações complexas de múltiplos elos.",
     "Definição técnica de sistema interno em vez de controles em planilhas, transformando um processo de alta variabilidade e risco em um fluxo documentado e automatizado para operações logísticas e de licenciamento."
   ),
   en: (
     "Led the internal motorcycle expedition product for 100,000 units/year, building validation flows across planning, fiscal invoicing, and actual execution and raising operational SLA from ~65% to above 90%.",
-    "Managed system architecture for regulatory and logistics workflows, centralizing business rules and integrations with factory, transporters and despachantes to reduce manual dependency and improve traceability.",
-    "Built C#/.NET APIs and PostgreSQL data models to support Manaus→Belém→branch transport of 80 motorcycles per truck, delivering a scalable platform for complex multi-stage logistics.",
+    "Built C#/.NET APIs and PostgreSQL data models to support transport of 80 motorcycles per truck, delivering a scalable platform for complex multi-stage logistics.",
     "Chose internal system development over spreadsheet controls, converting a high-variability, high-risk operation into a documented, automated workflow for logistics and licensing."
   ),
 )
