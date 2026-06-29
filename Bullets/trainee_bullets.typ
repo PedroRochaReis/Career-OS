@@ -11,6 +11,7 @@
   ),
   en: (
     "Led the internal motorcycle expedition product for 100,000 units/year, building validation flows across planning, fiscal invoicing, and actual execution and raising operational SLA from ~65% to above 90%.",
+    "Managed system architecture for regulatory and logistics workflows, centralizing business rules and integrations with factory, transporters and despachantes to reduce manual dependency and improve traceability.",
     "Built C#/.NET APIs and PostgreSQL data models to support transport of 80 motorcycles per truck, delivering a scalable platform for complex multi-stage logistics.",
     "Chose internal system development over spreadsheet controls, converting a high-variability, high-risk operation into a documented, automated workflow for logistics and licensing."
   ),
@@ -21,7 +22,6 @@
     "Assumi a propriedade do portfólio de expedição e licenciamento, automatizando processos manuais e melhorando SLA de expedição de motos de ~65% para acima de 90% em um negócio de ciclo logístico crítico.",
     "Criei a plataforma de licenciamento de motocicletas que centralizou status regulatório, pagamentos e fluxo de etapas, reduzindo retrabalho e aumentando o controle operacional em uma operação com múltiplos parceiros externos.",
     "Implementei dashboards e métricas para SLAs, gargalos e custo por motocicleta, permitindo análise financeira que sustentou uma mudança de faturamento e uma economia projetada de cerca de R$ 20 milhões/ano.",
-    "Orquestrei a colaboração entre fábrica, planejamento, operações de filiais, transportadoras e despachantes para entregar uma solução escalável com impacto direto na previsibilidade e na qualidade da execução."
   ),
   en: (
     "Owned the expedition and licensing portfolio, automating manual processes and improving motorcycle expedition SLA from ~65% to above 90% in a critical logistics business flow.",

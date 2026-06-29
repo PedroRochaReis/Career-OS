@@ -1,6 +1,6 @@
 #let position = (
   pt: ("Product Manager – Multas (JAN/2026 – ATUAL)"),
-  en: ("Product Manager – Fines (JAN/2026 – PRESENT)")
+  en: ("Product Manager – Tickets (JAN/2026 – PRESENT)")
 )
 
 #let bigtech = (
@@ -8,11 +8,13 @@
     "Liderança da estratégia de produto para uma plataforma de conformidade regulatória, gerenciando uma exposição financeira de ~R$ 10M/mês e alcançando 99% de mitigação de riscos através da automação ponta a ponta de processos operacionais.",
     "Co-design da evolução de um sistema monolítico para uma arquitetura baseada em microserviços orientados a eventos, melhorando a escalabilidade, observabilidade e confiabilidade de uma plataforma operacional de alto risco.",
     "Desenvolvimento e implantação de um pipeline de validação de documentos baseado em IA para verificações de identidade e conformidade, automatizando ~99% do processamento e reduzindo o esforço operacional manual em ~90%.",
+    "Gestão da integração com mais de 600 autoridades governamentais em todo o Brasil, garantindo conformidade ponta a ponta para ~35.000 transações documentais mensais com alta confiabilidade e rastreabilidade."
   ),
   en: (
     "Led product strategy for a regulatory compliance platform managing ~R$10M/month in financial exposure, achieving 99% risk mitigation through end-to-end automation of operational processes.",
     "Co-designed the evolution from a monolithic system to an event-driven, microservices-based architecture, improving scalability, observability, and reliability of a high-risk operational platform.",
     "Built and deployed an AI-based document validation pipeline for identity and compliance checks, automating ~99% of processing and reducing manual operational effort by ~90%.",
+    "Managed integration with 600+ government authorities across Brazil, ensuring end-to-end compliance for ~35,000 monthly transactions with high reliability and traceability."
   ),
 )
 

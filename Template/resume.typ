@@ -218,5 +218,5 @@
 #section_title[#t(section_headlines.education)]
 
 #for item in formation {
-  #edu_item(item.sym)[#item.text]
+  edu_item(item.sym)[#item.text]
 }
