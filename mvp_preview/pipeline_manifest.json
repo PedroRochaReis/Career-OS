@@ -1,0 +1,15 @@
+{
+  "context_file": "C:\\Users\\rrped\\OneDrive\\Área de Trabalho\\Career-OS\\tests\\fixtures\\raw_context.md",
+  "output_dir": "C:\\Users\\rrped\\OneDrive\\Área de Trabalho\\Career-OS\\mvp_preview",
+  "prompts": {
+    "experiance_prompt.md": "C:\\Users\\rrped\\OneDrive\\Área de Trabalho\\Career-OS\\experiance_prompt.md",
+    "bullets_prompt.md": "C:\\Users\\rrped\\OneDrive\\Área de Trabalho\\Career-OS\\bullets_prompt.md"
+  },
+  "steps": [
+    "read_context",
+    "create_context_summary",
+    "build_experience_knowledge_base",
+    "create_bullets_stub"
+  ],
+  "status": "ok"
+}
