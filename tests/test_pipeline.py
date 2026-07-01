@@ -30,10 +30,14 @@ class OrchestratorTests(unittest.TestCase):
             summary_text = (output_dir / "experience_knowledge_base.md").read_text(encoding="utf-8")
             self.assertIn("Grupo Fleury", summary_text)
             self.assertIn("Pricing", summary_text)
+            self.assertIn("Projeto de Leads para time de vendas", summary_text)
+            self.assertIn("R$ 2.000.000", summary_text)
 
             bullets_text = (output_dir / "generated_bullets.typ").read_text(encoding="utf-8")
             self.assertIn("#let bigtech =", bullets_text)
             self.assertIn("Grupo Fleury", bullets_text)
+            self.assertIn("CRM", bullets_text)
+            self.assertIn("2 milhões", bullets_text)
 
             preview_text = (output_dir / "resume_preview.typ").read_text(encoding="utf-8")
             self.assertIn("Projeto de Leads", preview_text)
